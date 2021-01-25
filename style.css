@@ -1,0 +1,332 @@
+
+.navbar{
+	position: static;
+}
+body {
+    font-family: system-ui, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+}
+.container{
+	max-width: 1920px;
+	margin: 0 auto;
+}
+nav{
+	display:flex;
+}
+.navnav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+.navbar_logo{
+	width: 16%
+}
+.navbar_logo img{
+	width: 76px;
+}
+.navbar_menu{
+	width:75%;
+}
+.navbar_menu ul{
+	list-style-type: none;
+	display:flex;
+	flex-wrap: wrap;
+	float: right;
+	margin: 24px 0 0;
+}
+.navbar_menu ul li{
+	cursor: pointer;
+	margin-right: 97px;
+    font-size: 25px;
+    font-family: Graphik,sans-serif;
+}
+.bloc1{
+	display: flex;
+	margin: 95px 0;
+}
+.bloc1_part1{
+	width:65%;
+	margin: 81px 0 0;
+}
+.bloc1_part1_text {
+    font-size: 64px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0 auto;
+}
+.bloc1_part1_text .color{
+	color:#F55D0E;
+}
+
+.bloc1_part1_button {
+    width: fit-content;
+    margin: 0 auto;
+}
+.bloc1_part1_button button{
+	cursor: pointer;
+    color: white;
+    margin-top: 60px;
+    background-color: #F55D0E;
+    border: none;
+    padding: 13px 42px;
+    border-radius: 50px;
+    font-size: 24px;
+}
+.bloc1_part2{
+	width:25%;
+}
+.bloc1_part2_vid {
+    height: 100%;
+    border-radius: 42px;
+    width: 100%;
+    object-fit: cover;
+}
+.bloc2{
+	background-color: #E2E2E2;
+	padding: 124px;
+}
+.bloc2_part1_titre {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 15px;
+    margin-bottom: 98px;
+}
+.bloc2_part2{
+	display: flex;
+}
+
+.bloc2_part2_produit{
+	width: 50%;
+}
+.bloc2_part2_produit_img{
+	background-color: white;
+    width: 250px;
+    height: 362px;
+    margin: 0 auto;
+    background-size: 187px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+
+}
+.bloc2_part2_text{
+	text-align: center;
+	 font-size: 30px;
+	 margin: 52px;
+}
+
+.bloc4{
+	background-image: url("Images/pexels.jpg");
+	background-attachment: fixed;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bloc4_part1 .color {
+    color: #F55D0E;
+}
+.bloc2_part1_titre .color {
+    color: #F55D0E;
+}
+
+.bloc4_part1{
+   width:50%;
+   font-size: 50px;
+   letter-spacing: 15px;
+}	
+.bloc4_part2{
+	width:50%;
+	color: white;
+}
+.bloc4_part2_bloctext{
+	margin-bottom: 50px;
+	font-size: 25px;
+	padding:50px;
+}
+.bloc4_part2_bloctext_titre{
+	font-size: 50px;
+}
+.bloc4_part1_titre {
+    height: 100%;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.bloc5_part1_titre{
+	font-size: 50px;
+    text-align: center;
+    letter-spacing: 15px;
+    padding: 98px 0;
+}
+.bloc5{
+	background-color: #E2E2E2;
+	padding: 0 0 98px;
+}
+.bloc5_part1_titre .color {
+    color: #F55D0E;
+}
+.bloc5_part2_img {
+    margin: 0 auto;
+    width: fit-content;
+    /*width: 185px;
+    height: 185px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 300px;
+    background-image: url(Images/LogoFlix1.jpg);*/
+    background-attachment: fixed;
+}
+.bloc5_part2_img img{
+    width: 70px;
+    border-radius: 20px;
+}
+.bloc5_part2_blc{
+	display: flex;
+	overflow-x: scroll;
+	margin: 0 50px;
+}
+
+.bloc5_part2_blc::-webkit-scrollbar{
+	display: none;	
+}
+
+.bloc5_part2_blc2{
+	width: fit-content;
+	margin: 0 20px;
+}
+.bloc5_part2_text {
+    padding: 50px;
+    font-size: 25px;
+    background-color: white;
+    border: 25px;
+    width: 254px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: -45px;
+}
+.bloc6{
+	padding:120px 0;
+}
+.bloc6_part1_text{
+	font-size: 25px;
+	text-align: center;
+}
+.bloc6_part1_button {
+    width: fit-content;
+    margin: 0 auto;
+}
+.bloc6_part1_button button{
+	cursor: pointer;
+    color: white;
+    margin-top: 60px;
+    background-color: #F55D0E;
+    border: none;
+    padding: 13px 42px;
+    border-radius: 50px;
+    font-size: 24px;
+}
+.footer_part1 {
+    display: flex;
+    width: 75%;
+}
+nav .ss{
+	width:fit-content;
+}
+footer {
+    background-position: center;
+    background-color: #323437;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.copyright {
+    margin-top: 10px;
+    font-size: 25px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.bloc3{
+	display: flex;
+	flex-wrap: wrap;
+}
+.bloc3_img{
+	background-image:url("Images/Projet_flix.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	width:50%;
+}
+.bloc3_img1{
+	background-image:url("Images/camera-219958.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	width:50%;
+}
+
+.bloc3_blc{
+	width:50%;
+}
+.bloc3_part1_titre {
+    font-size: 50px;
+    text-align: left;
+    letter-spacing: 15px;
+    margin: 98px 98px 250px;
+}
+.bloc3_part1_titre1 {
+    font-size: 50px;
+    text-align: right;
+    letter-spacing: 15px;
+    margin: 98px 98px 250px;
+}
+.bloc3_part1_titre .color {
+    color: #F55D0E;
+}
+.bloc3_part1_titre1 .color {
+    color: #F55D0E;
+}
+
+.imgbis{
+    vertical-align: middle;
+}
+.bloc3_part1_text {
+    font-size: 25px;
+    padding: 0 98px 250px;
+    text-align: left;
+}
+.bloc3_part1_text1 {
+    font-size: 25px;
+    padding: 0 98px 250px;
+    text-align: right;
+}
+@media (max-width: 1350px){
+	.bloc2_part2{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.bloc2_part2_produit {
+	    width: 100%;
+	}
+	.bloc1_part1_text {
+	    text-align: center;
+	}
+	.bloc1 {
+	    flex-wrap: wrap-reverse;
+	}	
+	.bloc1_part1,.bloc1_part2, .bloc3_blc{
+	    width: 100%;
+	}
+	.bloc3_img,.bloc3_img1  {	    
+		width: 100%;
+		height: 800px;
+	}
+}
